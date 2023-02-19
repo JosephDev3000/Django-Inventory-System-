@@ -5,13 +5,13 @@
 {% include 'partials/topnav.html' %}
 <div class="row my-4">
     <div class="col-md-4">
-        <!-- {% if messages %}
-        {% for message in messages %} -->
-        <!-- <div class="alert alert-{{ message.tags }}">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
             {{ message }}
-        </div> -->
-        <!-- {% endfor %}
-        {% endif %} -->
+        </div>
+        {% endfor %}
+        {% endif %}
         <div class="card card-body">
             <h5>Add New Products</h5>
             <hr>
